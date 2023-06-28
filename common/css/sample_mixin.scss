@@ -1,0 +1,19 @@
+// メディアクエリ用Mixinの使い方
+// Mixinをインポートする（相対パスは自身のフォルダ構成に合わせて変更）
+@use "../common/css/common.scss" as *;
+
+// 記述例：セレクタの中括弧内にMixinを記載
+.section {
+  // スマホ用の記述
+  width: 90%;
+
+  // pc用の記述（sm・mdなどブレイクポイントを括弧の中に記載）
+  @include mq(md) {
+    width: 60%;
+  }
+
+  //以下と同じ意味
+  // @media screen and (min-width:767px) {
+  //   width: 60%;
+  // }
+}
