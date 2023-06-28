@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ↓ここにコードを追加 */
+
+.btn1 {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 120px;
+  margin: 20px;
+  padding: 1rem 4rem;
+  font-weight: bold;
+  border: 2px solid #333;
+  background: #333;
+  color: #fff;
+  border-radius: 100vh;
+  transition: 0.5s;
+}
+
+.btn1:hover {
+  color: #333;
+  background: #fff;
+  transform: rotate(-10deg)
+}
+
+
+.btn2 {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 120px;
+  margin: 20px;
+  padding: 1rem 4rem;
+  font-weight: bold;
+  border: 2px solid #27acd9;
+  background: #27acd9;
+  color: #fff;
+  border-radius: 100vh;
+  transition: 0.5s;
+}
+
+.btn2:hover {
+  color: #27acd9;
+  background: #fff;
+}
+
+.btn3 {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 120px;
+  margin: 20px;
+  padding: 1rem 4rem;
+  font-weight: bold;
+  color: lightsalmon;
+  border-bottom: 2px solid lightsalmon;
+  border-radius: 100vh;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.05);
+  transition: 0.5s;
+}
+
+.btn3:hover {
+  color: #fff;
+  background: lightsalmon;
+  border-bottom: 2px solid #fff;
+  transform: translateY(10px);
+}
+
+
+.btn4 {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 120px;
+  margin: 20px;
+  padding: 4rem;
+  font-weigth: bold;
+  color: #fff;
+  background-color: lightsalmon;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.btn4:hover {
+  transform: scale(1.1);
+}
+
+.btn5 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  background: lightgreen;
+  padding: 20px 100px;
+  margin: 20px;
+  display: inline-block;
+  transition: .3s;
+}
+
+.btn5:hover {
+  border-radius: 20px;
+  color: black;
+}
+
+.btn6 {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  background: grey;
+  text-decoration: none;
+  padding: 20px 50px;
+  margin: 20px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: 0.05s;
+}
+
+.btn6:hover {
+  transform: rotate(-10deg);
+}
+
+ul {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50% 50%;
+  list-style: none;
+}
+
+
+
+/* ↑ここにコードを追加 */
