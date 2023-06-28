@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/destyle.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="ロゴ">
+    <div class="nav">
+      <input id="drawer_input" class="drawer_hidden" type="checkbox">
+      <label for="drawer_input" class="drawer_open"><span></span></label>
+      <nav class="nav_content">
+        <ul class="nav_list">
+          <li class="nav_item"> <a href="#conceptSec"> コンセプト</a></li>
+          <li class="nav_item"><a href="#serviseSec">サービス</a></li>
+          <li class="nav_item"><a href="#flowSec">施工の流れ</a></li>
+          <li class="nav_item"><a href="#qaSec">よくあるご質問</a></li>
+          <li class="nav_item"><a href="#contactSec">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div><!-- /nav -->
+  </header>
+
+  <main>
+    <img class="hero3" src="images/hero 3.png" alt="トップ画">
+    <section id="conceptSec">
+      <div class="inner">
+        <h1>CONCEPT</h1>
+        <img src="images/consept-title.png" alt="コンセプトタイトル" class="inner_img">
+        <h2>家族が笑顔になれる場所</h2>
+        <p>家族が集う、温かく居心地の良い空間づくりを目指して、幅広い年代の方に安心して過ごしていただける空間づくりや、お手入れのしやすい素材を使用したリフォームをご提案いたします。</p>
+      </div><!-- /inner -->
+    </section><!-- conceptSec -->
+
+    <section id="serviseSec">
+      <div class="inner">
+        <h1>SERVICE</h1>
+        <img src="images/service-title.png" alt="サービスタイトル" class="inner_img">
+        <div class="list_img">
+          <figure>
+            <img src="images/list-1-img.png" alt="リスト1画像" class="list_img_item">
+            <p class="sub_title">浴室</p>
+            <figcaption>ご家族が一緒に入れる広めの浴槽や手すり等、安全性に配慮しています。</figcaption>
+            <p class="more">more<span></span></p>
+          </figure>
+          <figure>
+            <img src="images/list-2-img.png" alt="リスト2画像" class="list_img_item">
+            <p class="sub_title">リビング</p>
+            <figcaption>照明や家具の配置等、くつろぎやすい空間づくりを大切にしています。</figcaption>
+            <p class="more">more<span></span></p>
+          </figure>
+          <figure>
+            <img src="images/list-3-img.png" alt="リスト3画像" class="list_img_item">
+            <p class="sub_title">キッチン</p>
+            <figcaption>機能性だけでなく、デザイン性にもこだわっております。</figcaption>
+            <p class="more">more<span></span></p>
+          </figure>
+        </div><!-- list_img -->
+      </div><!-- /inner -->
+    </section><!-- serviseSec -->
+
+    <section id="flowSec">
+      <div class="inner">
+        <h1>FLOW</h1>
+        <img src="images/flow-title.png" alt="フロウタイトル" class="inner_img">
+        <ul>
+          <li class="text">ご相談</li>
+          <li class="kigou1"></li>
+          <li class="text">現地調査</li>
+          <li class="kigou2"></li>
+          <li class="text">お見積り</li>
+          <li class="kigou3"></li>
+          <li class="text">ご契約</li>
+          <li class="kigou4"></li>
+          <li class="text">施工</li>
+          <li class="kigou5"></li>
+          <li class="text">お引渡し</li>
+        </ul>
+      </div><!-- /inner -->
+    </section><!-- flowSec -->
+
+    <section id="qaSec">
+      <div class="inner">
+        <h1>Q&A</h1>
+        <img src="images/qa-title.png" alt="Q&Aタイトル" class="inner_img">
+        <p class="q1"><span class="question">Q.</span> 見積りは無料ですか？</p>
+        <p class="a1"><span class="answer">A.</span>はい。お見積もりは無料で承っております。ホームページよりお気軽にお問い合わせください</p>
+        <p class="q2"><span class="question">Q.</span>普段通り生活をしながらのリフォーム工事は可能ですか？</p>
+        <p class="a2"><span class="answer">A.</span>はい。もちろん可能です。工事中の箇所は、何日間が使用できなくなる場合もございますのであ <br class="onlypc">
+          らかじめご了承ください。大型リフォームの場合には、仮住まいもお薦めしております。
+        </p>
+      </div><!-- /inner -->
+    </section><!-- qaSec -->
+
+    <section id="contactSec">
+      <div class="inner">
+        <h1>CONTACT</h1>
+        <img src="images/contact-title.png" alt="タイトル" class="inner_img">
+        <form action="" method="">
+          <table class=" contact-table">
+            <tr>
+              <th>
+                <p class="contact-item contact-item1">お問い合わせ種別<span>必須</span></p>
+              </th>
+              <td>
+                <p class="toiawase"><label>
+                    <input type="radio" name="toiawase" value="資料請求"> 資料請求</label>
+                  <label> <input type="radio" name="toiawase" value="ご相談"> ご相談</label>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <th class="contact-item contact-item2">お名前<span>必須</span></th>
+              <td class="contact-body1 input1">
+                <input type="text" name="user_name">
+              </td>
+            </tr>
+            <tr>
+              <th class="contact-item contact-item3">フリガナ<span>必須</span></th>
+              <td class="contact-body1 input2">
+                <input type="text" name="user_name_kana">
+              </td>
+            </tr>
+            <tr>
+              <th class="contact-item contact-item4">電話番号<span>必須</span></th>
+              <td class="contact-body1 input3">
+                <input type="tel" name="user_tel">
+              </td>
+            </tr>
+            <tr>
+              <th class="contact-item contact-item5">住所<span>必須</span></th>
+              <td class="contact-body2 input4">
+                <input type="text" name="user_postal_code">
+              </td>
+              <td class="contact-body1 input5">
+                <input type="text" name="user_address">
+              </td>
+            </tr>
+            <tr>
+              <th class="contact-item contact-item6">メールアドレス<span>必須</span></th>
+              <td class="contact-body1 input6">
+                <input type="email" name="user_email1">
+              </td>
+            </tr>
+            <tr>
+              <th class="contact-item contact-item7">メールアドレス(確認用)<span>必須</span></th>
+              <td class="contact-body1 input7">
+                <input type="email" name="user_email2">
+              </td>
+            </tr>
+            <tr>
+              <th class="contact-item contact-item8">お問い合わせ内容<span>必須</span></th>
+              <td class="contact-body3 input8">
+                <textarea name="お問い合わせ内容"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <th></th>
+              <td>
+                <input class="contact-submit" type="submit" value="入力内容を確認する" />
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div><!-- /inner -->
+    </section><!-- contactSec -->
+
+    <a href="#" id="page-top"></a>
+
+  </main>
+
+  <footer>
+    <p>&copy;2023 Design House Renovations</p>
+  </footer>
+
+</body>
+
+</html>
